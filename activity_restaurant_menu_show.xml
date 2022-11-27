@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RestaurantMenuShow"
+    android:background="@drawable/background">
+
+    <info.hoang8f.widget.FButton
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:padding="30dp"
+        android:id="@+id/order"
+        android:text="Order Now"
+        android:background="@color/overlayBackGround"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@id/menuItemRecycleView" />
+
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/menuItemRecycleView"
+            android:layout_above="@+id/order">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+
+
+</RelativeLayout>

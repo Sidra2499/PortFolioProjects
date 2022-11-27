@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="17dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_margin="10sp"
+            android:layout_height="130dp"
+            android:padding="30dp"
+            android:adjustViewBounds="true"
+            android:id="@+id/single_delete_menu"/>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/single_delete_menu"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/d_name"
+                android:text="Name"
+                android:textSize="20dp"
+                android:textColor="@color/overlayBackGround"
+                android:background="@android:color/transparent"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/d_price"
+                android:text="1st year"
+                android:textSize="20dp"
+                android:layout_below="@+id/d_name"
+                android:textColor="@color/overlayBackGround"
+                android:background="@android:color/transparent"/>
+
+            <info.hoang8f.widget.FButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@+id/d_price"
+                android:id="@+id/deleteitem"
+                android:text="Delete this Item"/>
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

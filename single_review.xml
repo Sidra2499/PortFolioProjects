@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="24dp"
+    android:background="@color/overlayActionBar"
+    android:padding="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_margin="10dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rev_user"
+            android:text="Name"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rev"
+            android:textSize="20dp"
+            android:text="User Review"
+            android:layout_below="@+id/rev_user"
+            android:textStyle="italic"/>
+
+
+    </RelativeLayout>
+
+
+
+</androidx.cardview.widget.CardView>

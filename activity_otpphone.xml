@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".OTPphone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        >
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+
+            android:id="@+id/edtCode"
+            android:hint="Enter Your OTP Code Here"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+
+            android:textSize="28sp"
+            android:inputType="number"
+            android:textColor="@android:color/white"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="6"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+
+            android:layout_height="match_parent"/>
+
+
+        <info.hoang8f.widget.FButton
+            android:id="@+id/btnVerify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:text="Verify"
+
+            android:textColor="@android:color/black"
+            />
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:outlineAmbientShadowColor="@color/fbutton_color_silver"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

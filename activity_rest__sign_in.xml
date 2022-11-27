@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Rest_SignIn"
+    android:background="@drawable/back8">
+
+
+
+    <EditText
+        android:id="@+id/email_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:hint="Enter Your Email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:textColor="@android:color/white"
+        android:hint="Enter Your Password"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/rest_login"
+        android:layout_width="307dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="249dp"
+        android:text="Login" />
+
+    <Button
+        android:id="@+id/rest_signup"
+        android:layout_width="311dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="300dp"
+        android:text="SignUp"
+        />
+
+</RelativeLayout>

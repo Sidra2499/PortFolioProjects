@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogName"
+        android:layout_margin="20dp"
+        android:background="@color/overlayBackGround"
+        android:text="Food Name"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogPrice"
+        android:layout_margin="20dp"
+        android:background="@color/overlayBackGround"
+        android:text="Food Price"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dialogURL"
+        android:layout_margin="20dp"
+        android:background="@color/overlayBackGround"
+        android:text="Food URL"/>
+
+</LinearLayout>

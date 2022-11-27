@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="17dp"
+    android:background="@drawable/background"
+    tools:context=".Cart">
+
+    <ListView
+        android:id="@+id/cartList"
+        android:layout_width="357dp"
+        android:layout_height="549dp"
+        android:layout_above="@+id/btmDesign"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp">
+
+    </ListView>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    app:cardBackgroundColor="@color/colorPrimary"
+    android:layout_alignParentBottom="true"
+    android:id="@+id/btmDesign">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_margin="8dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="970"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"/>
+
+        </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_alignParentBottom="true"
+    >
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnPlacrOrder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_margin="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:text="Place Order"
+        android:textColor="@android:color/white"
+        app:buttonColor="@color/btnSignActive"/>
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnModifyOrder"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_margin="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:text="Clear Cart"
+        android:textColor="@android:color/white"
+        app:buttonColor="@color/btnSignActive"/>
+
+
+</LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>
+</RelativeLayout>

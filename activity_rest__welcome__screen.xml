@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back7"
+    tools:context=".Rest_Welcome_Screen">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_centerInParent="true">
+
+
+    <Button
+        android:id="@+id/orders"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#702784"
+        android:background="#702784"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:text="Orders" />
+    <Button
+        android:id="@+id/menu"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#702784"
+        android:background="#702784"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:text="Menu Items" />
+    <Button
+        android:id="@+id/Reviews"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#702784"
+        android:background="#702784"
+        android:textSize="17sp"
+        android:layout_centerHorizontal="true"
+        android:text="Reviews" />
+    <Button
+        android:id="@+id/trainStatus"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#702784"
+        android:background="#702784"
+        android:textSize="17sp"
+
+        android:layout_centerHorizontal="true"
+        android:text="Train Status" />
+
+    <Button
+        android:id="@+id/btnout"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:textColor="@android:color/holo_orange_dark"
+        android:textColorHint="#702784"
+        android:background="#702784"
+        android:textSize="17sp"
+       android:layout_below="@+id/trainStatus"
+        android:gravity="center"
+        android:padding="7dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Logout" />
+</RelativeLayout>
+
+
+</RelativeLayout>

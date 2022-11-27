@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_margin="10sp"
+            android:layout_height="130dp"
+            android:padding="30dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="true"
+            android:id="@+id/single_update_menu"/>
+            <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/single_update_menu"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/u_name"
+                android:text="Name"
+                android:textSize="20dp"
+                android:textColor="@color/overlayBackGround"
+                android:background="@android:color/transparent"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/u_price"
+                android:text="Price"
+                android:textSize="20dp"
+                android:layout_below="@+id/u_name"
+                android:textColor="@color/overlayBackGround"
+                android:background="@android:color/transparent"/>
+
+
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

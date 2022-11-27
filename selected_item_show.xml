@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="12dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f_name"
+            android:text="Food Name"
+            android:textStyle="italic"
+            android:textSize="24dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f_qty"
+            android:layout_below="@+id/f_name"
+            android:text="Quantity"
+            android:textStyle="italic"
+            android:textSize="24dp"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/f_price"
+            android:text="Price"
+            android:textStyle="italic"
+            android:textSize="24dp"
+            android:layout_below="@+id/f_qty"
+            android:textColor="@android:color/white"
+            android:background="@android:color/black"/>
+
+
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

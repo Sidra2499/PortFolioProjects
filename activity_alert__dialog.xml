@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/overlayBackGround"
+    tools:context=".Alert_Dialog">
+
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logName"
+        android:layout_margin="20dp"
+
+        android:background="@color/overlayBackGround"
+        android:hint="Food Name"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logPrice"
+        android:layout_margin="20dp"
+        android:background="@color/overlayBackGround"
+        android:layout_below="@+id/logName"
+        android:hint="Food Price"/>
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logURL"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/logPrice"
+        android:background="@color/overlayBackGround"
+        android:hint="Food URL"/>
+    <info.hoang8f.widget.FButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logURL"
+        android:padding="30dp"
+        app:buttonColor="@android:color/black"
+        android:text="Update"
+        android:id="@+id/updateData"/>
+
+</RelativeLayout>

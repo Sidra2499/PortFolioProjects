@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back2"
+    tools:context=".Rest_SignUp">
+
+    <TextView
+        android:id="@+id/textView"
+        style="@android:style/Widget.DeviceDefault.Light.TextView.SpinnerItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="#03DEC9F1"
+        android:text="Food Express"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:textStyle="normal|bold|italic"
+        android:visibility="visible"
+        app:autoSizeTextType="uniform" />
+    <EditText
+        android:id="@+id/rest_name"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="70dp"
+        android:hint="Enter Name"
+        android:textColor="#702784"
+        android:textColorHint="#702784" />
+    <EditText
+        android:id="@+id/rest_city"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:hint="Enter City"
+        android:textColor="#702784"
+        android:textColorHint="#702784" />
+
+    <EditText
+        android:id="@+id/rest_station"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="130dp"
+        android:hint="Enter nearby Station"
+        android:textColor="#702784"
+        android:textColorHint="#702784" />
+
+    <EditText
+        android:id="@+id/rest_phone"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="250dp"
+        android:hint="Enter Phone No."
+        android:textColor="#702784"
+        android:textColorHint="#702784" />
+
+    <EditText
+        android:id="@+id/rest_add"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="280dp"
+        android:hint="Enter Address"
+        android:textColor="#702784"
+        android:textColorHint="#702784" />
+
+    <EditText
+        android:id="@+id/rest_email"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="310dp"
+        android:hint="Enter Email"
+        android:textColor="#702784"
+        android:textColorHint="#702784" />
+    <EditText
+        android:id="@+id/rest_password"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="340dp"
+        android:hint="Password"
+        android:textColor="#702784"
+        android:textColorHint="#702784" />
+    <Button
+        android:id="@+id/submit"
+        android:layout_height="55dp"
+        android:layout_width="140dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="380dp"
+        android:background="#702784"
+        android:text="Submit"
+        android:textSize="17sp"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#702784" />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rest_progressbar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_height="55dp"
+        android:layout_width="140dp"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="380dp"
+        android:background="#702784"
+        android:text="Cencel"
+        android:textSize="17sp"
+
+        android:textColor="@android:color/background_light"
+        android:textColorHint="#702784" />
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    app:contentPadding="5dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="3dp">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:id="@+id/item_image"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:clickable="true"
+                android:padding="2dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@+id/item_image"
+                android:id="@+id/item_name"
+                android:textSize="24dp"
+
+                android:background="@color/overlayBackGround"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_below="@+id/item_name"
+
+                android:id="@+id/item_price"
+                android:textSize="24dp"
+                android:background="@color/fbutton_color_green_sea" />
+
+
+        </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

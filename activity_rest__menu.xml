@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".Rest_Menu">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="20dp"
+    android:layout_centerInParent="true"
+    >
+    <info.hoang8f.widget.FButton
+        android:id="@+id/viewMenu"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="View Menu"
+        android:textStyle="italic"
+        android:padding="10dp"
+        android:layout_marginTop="7dp"
+        android:textColor="@android:color/black"/>
+    <info.hoang8f.widget.FButton
+        android:id="@+id/updateMenu"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Update Menu"
+        android:textStyle="italic"
+        android:layout_below="@+id/viewMenu"
+        android:padding="10dp"
+        android:layout_marginTop="7dp"
+        android:textColor="@android:color/black"/>
+    <info.hoang8f.widget.FButton
+        android:id="@+id/deleteMenu"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Delete Menu"
+        android:textStyle="italic"
+          android:layout_below="@id/updateMenu"
+        android:padding="10dp"
+        android:layout_marginTop="7dp"
+        android:textColor="@android:color/black"/>
+    <info.hoang8f.widget.FButton
+        android:id="@+id/addMenu"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Add Menu"
+        android:textStyle="italic"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/deleteMenu"
+        android:textColor="@android:color/black"/>
+    android:padding="10dp"
+
+</RelativeLayout>
+
+
+</RelativeLayout>

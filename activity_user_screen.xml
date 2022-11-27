@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".UserScreen">
+
+    <Button
+        android:id="@+id/User"
+        android:layout_width="237dp"
+        android:layout_height="73dp"
+        android:layout_marginBottom="260dp"
+        android:text="Passenger"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/rest"
+        android:layout_width="228dp"
+        android:layout_height="72dp"
+        android:layout_marginBottom="119dp"
+        android:shadowColor="#3F51B5"
+        android:text="Restaurant"
+        app:layout_constraintBottom_toBottomOf="@+id/User"
+        app:layout_constraintStart_toStartOf="@+id/User"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

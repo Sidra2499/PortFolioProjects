@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".BookOrder">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp">
+
+        <TextView
+            android:layout_gravity="center"
+            android:id="@+id/txtslogan2"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:text="@string/slogan2"
+            android:textSize="24dp"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:textStyle="italic"/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+      android:layout_marginTop="320dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        >
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+
+        android:id="@+id/edttrain_No"
+        android:hint="Enter Your Train No here"
+        android:textColorHint="@android:color/white"
+        android:layout_width="match_parent"
+
+        android:textSize="24sp"
+        android:inputType="text"
+        android:textColor="@android:color/white"
+        app:met_baseColor="@android:color/white"
+        app:met_floatingLabel="highlight"
+        app:met_maxCharacters="6"
+        app:met_primaryColor="@android:color/white"
+        app:met_singleLineEllipsis="true"
+
+        android:layout_height="match_parent"/>
+        <com.rengwuxian.materialedittext.MaterialEditText
+
+            android:id="@+id/edt_pnr"
+            android:hint="Enter Your PNR No Here"
+            android:textColorHint="@android:color/white"
+            android:layout_width="match_parent"
+
+            android:textSize="24sp"
+            android:inputType="text"
+            android:textColor="@android:color/white"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_maxCharacters="6"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+
+            android:layout_height="match_parent"/>
+
+
+    <info.hoang8f.widget.FButton
+        android:id="@+id/btnReady"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_weight="1"
+        android:text="Ready to Order"
+
+        android:textColor="@android:color/black"
+        />
+    </LinearLayout>
+</RelativeLayout>
